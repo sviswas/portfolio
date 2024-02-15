@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+* {
+  color: white;
+}
+.bg_image {
+  background-color: #080808;
+  height: fit-content;
+  background-size: cover;
+}
+.image_style {
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+}
+.about_me {
+  color: #ff004f;
+  font-weight: 600;
+  font-size: 50px;
+  font-family: "Roboto";
+}
+#nav_name {
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+}
+.nav_line {
+  position: relative;
+}
+.nav_line::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  transition: 0.5s;
+  left: 0;
+  bottom: 0px;
+}
+.nav_line:hover::after {
+  width: 100%;
+}
+.horizontal_line {
+  background-color: white;
+  height: 1px;
+  border-width: 0;
+}
+.my_nav_name {
+  color: #ff004f;
+}
+.my_name_h1 {
+  color: rgb(207, 206, 206);
+}
+.my_name {
+  color: #ff004f;
+}
+.my_bio {
+  text-align: justify;
+  color: rgb(207, 206, 206);
+  font-size: 17px;
+  font-weight: 500;
+}
+#nav_bar_item1 {
+  color: white;
+  font-family: "Roboto";
+  margin-left: 10px;
+}
+#nav_bar_item2 {
+  color: white;
+  font-family: "Roboto";
+  margin-left: 10px;
+}
+#nav_bar_item3 {
+  color: white;
+  font-family: "Roboto";
+  margin-left: 10px;
+}
+#nav_bar_item4 {
+  color: white;
+  font-family: "Roboto";
+  margin-left: 10px;
+}
+#nav_bar_item5 {
+  color: white;
+  font-family: "Roboto";
+  margin-left: 10px;
+}
+#nav_bar_item6 {
+  color: white;
+  font-family: "Roboto";
+  margin-left: 10px;
+}
+#nav_bar_item7 {
+  color: white;
+  font-family: "Roboto";
+  margin-left: 10px;
+}
+.btn_style {
+  background-color: transparent;
+  border: 2px solid #ff004f;
+  border-radius: 10px;
+  font-size: 18px;
+  color: rgb(207, 206, 206);
+  padding: 20px;
+  outline: 0;
+}
+.btn_style:hover {
+  list-style-type: none;
+  text-decoration: none;
+  background-color: rgb(207, 206, 206);
+  color: #080808;
+}
+
+.skill_style {
+  font-weight: 600;
+  font-size: 50px;
+  font-family: "Roboto";
+  text-align: center;
+  color: #ff004f;
+}
+.skill_progress {
+  width: 100%;
+  height: 12px;
+  background-color: rgb(207, 206, 206);
+  border-radius: 25px;
+  position: relative;
+}
+.skill_progress span {
+  width: 50%;
+  background-color: #ff004f;
+  height: 100%;
+  border-radius: 25px;
+  position: absolute;
+}
+.skill_progress .html {
+  width: 83%;
+  animation: html 1s;
+}
+@keyframes html {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 83%;
+  }
+}
+.skill_progress .css {
+  width: 80%;
+  animation: css 1s;
+}
+@keyframes css {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+.skill_progress .js {
+  width: 81%;
+  animation: js 1s;
+}
+@keyframes js {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 81%;
+  }
+}
+.skill_progress .py {
+  width: 88%;
+  animation: py 1s;
+}
+@keyframes py {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 88%;
+  }
+}
+.skill_progress .java {
+  width: 77%;
+  animation: java 1s;
+}
+@keyframes java {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 77%;
+  }
+}
+.skill_progress .sql {
+  width: 78%;
+  animation: sql 1s;
+}
+@keyframes sql {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 78%;
+  }
+}
+.pro_img {
+  height: 300px;
+  width: 300px;
+}
+.skill_head {
+  font-weight: 500;
+  color: rgb(207, 206, 206);
+  font-size: 17px;
+}
+.project_box {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 4px 4px #ff004f;
+}
+.project_box img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.pro_txt_style {
+  color: blanchedalmond;
+}
+.pro_para_style {
+  text-align: justify;
+  hyphens: auto;
+}
+.project_layer {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 40px;
+  text-align: center;
+  overflow: hidden;
+  word-wrap: break-word;
+  transition: height 0.5s;
+}
+.project_layer h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.project_layer a i {
+  color: #ff004f;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+.card-text {
+  text-align: justify;
+  hyphens: auto;
+}
+#full_img_view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.project_box:hover img {
+  transform: scale(1.1);
+}
+.project_box:hover .project_layer {
+  height: 100%;
+}
+.certify {
+  border-radius: 10px;
+  background-color: #ff004f;
+  color: #fff;
+  padding: 10px;
+  outline: 0;
+  border-width: 0;
+}
+.certify:hover {
+  letter-spacing: 0.1em;
+  background-color: transparent;
+  border: 1px solid #ff004f;
+  text-decoration: none;
+  color: white;
+}
+
+.submit_style {
+  background-color: #ff004f;
+  height: 38px;
+  width: 128px;
+  color: rgb(207, 206, 206);
+  outline: 0;
+  border-width: 0;
+  font-size: 17px;
+  border-radius: 10px;
+}
+.submit_style:hover {
+  letter-spacing: 0.1em;
+  background-color: transparent;
+  border: 1px solid #ff004f;
+}
+.contact_style {
+  background-color: #262626;
+  color: #fff;
+  font-size: 18px;
+}
+.error .contact_style {
+  border: 1px solid #ff004f;
+}
+.error #error_style {
+  display: block;
+}
+#error_style {
+  color: #ff004f;
+  font-size: 15px;
+  margin-top: 5px;
+  display: none;
+}
+.social_icons a {
+  text-decoration: none;
+  margin-right: 25px;
+  color: rgb(207, 206, 206);
+  display: inline-block;
+  transition: transform 0.5s;
+  font-size: 18px;
+}
+.social_icons a i:hover {
+  color: #ff004f;
+  transform: translateY(-7px);
+}
+.icon_text {
+  color: rgb(207, 206, 206);
+  font-weight: 700;
+  font-size: 28px;
+}
+.c_info_style {
+  font-weight: 500;
+  color: rgb(207, 206, 206);
+  font-size: 17px;
+}
+.contact_info .info_icon,
+.c_info_style {
+  display: inline;
+}
+.info_icon {
+  font-size: 18px;
+}
+.scroll-scale {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 1s;
+}
+.show-items {
+  opacity: 1;
+  transform: translateX(0);
+}
